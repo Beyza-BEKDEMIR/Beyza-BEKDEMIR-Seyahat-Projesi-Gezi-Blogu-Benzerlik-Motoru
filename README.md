@@ -31,7 +31,7 @@ Bu projede, Travellerspoint seyahat bloglarından elde edilen metinler üzerinde
 - Kelime benzerliği ve bağlamsal analiz çalışmaları
 - Lemmatizasyon ve stemming yöntemlerinin etkilerinin incelenmesi
   
-  Veri seti İngilizce'dir ve kültür, doğa, tarih, gezilecek yerler gibi temalara odaklanmaktadır.
+Veri seti İngilizce'dir ve kültür, doğa, tarih, gezilecek yerler gibi temalara odaklanmaktadır.
 
 ---
 ## Anlamsal Değerlendirme ve Sıralama Tutarlılığı
