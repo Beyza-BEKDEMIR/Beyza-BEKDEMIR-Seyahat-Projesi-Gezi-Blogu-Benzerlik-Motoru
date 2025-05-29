@@ -26,10 +26,10 @@ Bu projede, Travellerspoint seyahat bloglarından elde edilen metinler üzerinde
 
   Bu veri seti, aşağıdaki doğal dil işleme amaçları için kullanılabilir:
   
-    - Ülkelerle ilgili blog içeriklerinin konu analizi
-    - TF-IDF ve Word2Vec gibi metin temsillerinin karşılaştırılması
-    - Kelime benzerliği ve bağlamsal analiz çalışmaları
-    - Lemmatizasyon ve stemming yöntemlerinin etkilerinin incelenmesi
+- Ülkelerle ilgili blog içeriklerinin konu analizi
+- TF-IDF ve Word2Vec gibi metin temsillerinin karşılaştırılması
+- Kelime benzerliği ve bağlamsal analiz çalışmaları
+- Lemmatizasyon ve stemming yöntemlerinin etkilerinin incelenmesi
   
   Veri seti İngilizce'dir ve kültür, doğa, tarih, gezilecek yerler gibi temalara odaklanmaktadır.
 
