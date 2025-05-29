@@ -42,21 +42,22 @@ Bu bölümde, elde edilen TF-IDF ve Word2Vec modelleri üzerinden ülkelerle ilg
   **word2vec_similarity.py:** Word2Vec (CBOW ve Skip-Gram) tabanlı benzerlik analizleri
     
   **jaccard_similarity.py:** Farklı modellerin sıralama benzerliğini ölçmek için Jaccard benzerlik analizi
+  
 ---
 ## Cümle Benzerliği Hesaplama
 Her model belirli bir giriş metni alarak benzerlikleri cosine similarity yöntemiyle hesaplanmıştır. Word2Vec modelleriyle cümle temsili oluşturulurken, her cümledeki kelime vektörlerinin ortalaması alınmıştır. TF-IDF için klasik kelime matris temsili ile cümleler vektöre dönüştürülmüş ve benzerlik skorları elde edilmiştir.
 
 ---
 ## Anlamsal Değerlendirme (Subjective Evaluation)
-  Her modelin ürettiği cümle benzerlik skoru, 0 ile 1 arasında normalize edilmiştir.
-  Model çıktıları, 1 ile 5 arasında puanlanarak değerlendirilmiştir; 1 düşük, 5 ise çok yüksek benzerlik anlamına gelir.
-  Her bir model için ortalama benzerlik skoru ve ortalama puan hesaplanarak genel başarı karşılaştırması yapılmıştır.
+Her modelin ürettiği cümle benzerlik skoru, 0 ile 1 arasında normalize edilmiştir.
+Model çıktıları, 1 ile 5 arasında puanlanarak değerlendirilmiştir; 1 düşük, 5 ise çok yüksek benzerlik anlamına gelir.
+Her bir model için ortalama benzerlik skoru ve ortalama puan hesaplanarak genel başarı karşılaştırması yapılmıştır.
 
 ---
 ## Sıralama Tutarlılığı (Ranking Agreement)
-  Modellerin cümle benzerliği sıralamaları Jaccard benzerliği kullanılarak karşılaştırılmıştır.
-  Bu sayede, modellerin benzerlik sıralamalarındaki tutarlılık ölçülmüş ve mimari tercihlerinin etkisi analiz edilmiştir.
-  Elde edilen Jaccard benzerliği matrisi 'jaccard_similarity_matrix.csv' dosyasına kaydedilmiştir.
+Modellerin cümle benzerliği sıralamaları Jaccard benzerliği kullanılarak karşılaştırılmıştır.
+Bu sayede, modellerin benzerlik sıralamalarındaki tutarlılık ölçülmüş ve mimari tercihlerinin etkisi analiz edilmiştir.
+Elde edilen Jaccard benzerliği matrisi 'jaccard_similarity_matrix.csv' dosyasına kaydedilmiştir.
 
 --- 
 
